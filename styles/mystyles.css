@@ -1,0 +1,30 @@
+.bodybackground{
+    background-image: url(../images/background.jpg);
+    background-color: khaki;
+}
+
+p{
+    color: #666666;
+
+}
+
+li{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.biography{
+    font-size: 8 px;
+}
+
+.listheader{
+    font-size: 14 px;
+    color: black;
+}
+.border{
+    margin: auto;
+    padding: 10px;
+    border: 3px blue;
+    width: 50%;
+    color: white;
+}

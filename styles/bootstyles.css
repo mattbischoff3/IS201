@@ -1,0 +1,88 @@
+.body {
+  top: 114px;
+  left: 5px;
+  right: 5px;
+  bottom: 64px;
+  background-image: url(../images/background.jpg);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  height: 100px;
+}
+
+.tables {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.tableRow {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 10px;
+  /*flex-wrap: wrap;*/
+  /*this is the only way I could figure out how to put charts in grid format*/
+}
+
+.common {
+  width: 100;
+}
+.footer {
+  margin: 10px;
+  height: 50px;
+  text-align: center;
+  color: grey;
+}
+
+h1 {
+  color: blue;
+  border: 2px solid blue;
+  background-color: white;
+  font-style: italic;
+}
+
+li {
+  display: inline;
+  background-color: lightgrey;
+}
+
+ul {
+  text-align: right;
+  color: blue;
+  margin: 5px;
+}
+
+a {
+  color: blue;
+}
+
+.firstchart {
+  width: 725px;
+  height: 500px;
+  margin-right: 10px;
+}
+
+.secondchart {
+  left: 825px;
+  width: 700px;
+  height: 500px;
+}
+.thirdchart {
+  width: 700px;
+  height: 500px;
+  margin-right: 10px;
+}
+
+.fourthchart {
+  left: 825 px;
+  width: 700px;
+  height: 500px;
+}
